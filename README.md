@@ -3,7 +3,7 @@
 
 This is a Retrieval-Augmented Generation (RAG) offline chatbot that can answer questions based on the contents of PDF files stored locally.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 rag_offline_chatbot/
@@ -14,11 +14,11 @@ rag_offline_chatbot/
 └── models/               # Stores embedding and FAISS index files
 ```
 
-## 🚀 How to Run
+##  How to Run
 
 1. **Clone the repository**
    ```bash
-   git clone <repo-url>
+   git clone "https://github.com/prathikbsgowda/rag_offline_chatbot.git"
    cd rag_offline_chatbot
    ```
 
@@ -39,7 +39,7 @@ rag_offline_chatbot/
    - "Explain section 3."
    - "Who is the author?"
 
-## 🧠 GPU Support
+##  GPU Support
 
 If a GPU is available, it will be used for faster embedding and inference. The embedding model uses `SentenceTransformer` with `device='cuda'`.
 
@@ -51,7 +51,7 @@ If a GPU is available, it will be used for faster embedding and inference. The e
 - PyPDF2
 - streamlit
 
-## 📌 Notes
+##  Notes
 
 - Place your PDFs in the `pdfs/` directory.
 - The first run will create the `models/` directory with the FAISS index.
