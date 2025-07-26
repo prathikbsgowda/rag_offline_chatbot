@@ -1,4 +1,3 @@
-
 # RAG Offline Chatbot
 
 This is a Retrieval-Augmented Generation (RAG) offline chatbot that can answer questions based on the contents of PDF files stored locally.
@@ -44,7 +43,6 @@ rag_offline_chatbot/
 If a GPU is available, it will be used for faster embedding and inference. The embedding model uses `SentenceTransformer` with `device='cuda'`.
 
 ## 🛠 Requirements
-
 - Python 3.8+
 - sentence-transformers
 - faiss-cpu or faiss-gpu
